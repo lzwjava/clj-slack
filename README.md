@@ -8,6 +8,13 @@ Our company use it all day. When our user creates a feedback to us , we receive 
 
 ![Image](http://lzw-picture.qiniudn.com/slack2.png)
 
+## Install
+
+Leiningen
+
+```clojure
+   [clj-slack "0.1.0"]
+```
 
 ## Usage
 ```clojure
