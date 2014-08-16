@@ -1,6 +1,7 @@
 # clj-slack
 
 A Clojure library designed to let you send message to slack.
+
 [Slack](https://slack.com) is very powerful tool for company communication.
 
 Our company uses it all day. When our user creates a feedback to us , we receive a message in slack channel, so we can respond to our user very quickly. 
