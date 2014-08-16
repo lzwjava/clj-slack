@@ -2,12 +2,14 @@
 
 A Clojure library designed to let you send message to slack.
 
+![Image](http://lzw-picture.qiniudn.com/slack.png)
+
 ## Usage
 ```clojure
 (require 'clj-slack.core :as slack)
 (slack/send-msg slack-url "msg")
-
 ```
+
 Then in your slack channel, you will recevie message.
 Also you can specify the icon by :icon_url or :icon_emoji, the username by :username,
 
@@ -26,6 +28,8 @@ If you use :icon_emoji and :icon_url together, the latter option will be showed 
 (slack/create-link "http://www.baidu.com" "Click here!"
 ```
 
+## Test
+Run `lein test`, but you should specify slack url in the test file.
 
 ## License
 
