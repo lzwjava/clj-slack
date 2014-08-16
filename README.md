@@ -33,7 +33,7 @@ Also you can specify the icon by `:icon_url` or `:icon_emoji`, the username by `
 
 
 ```clojure
-(slack/send-msg slack-url "msg" :icon_emoji icon-url)
+(slack/send-msg slack-url "msg" :icon_emoji ":ghost:")
 ```
 
 If you use `:icon_emoji` and `:icon_url` together, the latter option will be showed in slack.
