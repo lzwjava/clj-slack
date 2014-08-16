@@ -27,7 +27,7 @@ Also you can specify the icon by :icon_url or :icon_emoji, the username by :user
 If you use :icon_emoji and :icon_url together, the latter option will be showed in slack.
 
 ```clojure
-(slack/create-link "http://www.baidu.com" "Click here!"
+(slack/create-link "http://www.baidu.com" "Click here!")
 ```
 
 ## Test
