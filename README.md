@@ -17,6 +17,8 @@ Leiningen
 ```
 
 ## Usage
+First of all, you should get a `Incoming WebHooks` integration url in slack as `slack-url` below. Then, 
+
 ```clojure
 (require 'clj-slack.core :as slack)
 (slack/send-msg slack-url "msg")
