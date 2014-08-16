@@ -3,7 +3,7 @@
 A Clojure library designed to let you send message to slack.
 
 
-![Image](http://lzw-picture.qiniudn.com/slack.png)
+![Image](http://lzw-picture.qiniudn.com/slack1.png)
 
 
 ## Usage
