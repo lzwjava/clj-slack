@@ -2,10 +2,10 @@
   (:require [clojure.test :refer :all]
             [clj-slack.core :refer :all]))
 
-(def slackUrl "")
+(def slack-url "")
 
 (deftest send-msg-test
   (testing "send-msg"
-    (let [text (str "There's sth new!\n" (create-link "http://www.baidu.com" "Click here!"))
-          res (send-msg slackUrl text :username "lzwjava" :icon_emoji ":ghost:")]
+    (let [text (str "A new feedback is created!\n" (create-link "http://www.baidu.com" "Click here for detail!"))
+          res (send-msg slack-url text :username "Feedback" :icon_emoji ":ghost:")]
       (is res true))))
